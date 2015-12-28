@@ -1,0 +1,72 @@
+body { background-image: url(vogue.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: "futura", "Questrial", sans-serif;
+}
+div.header {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.box {
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.box svg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  -webkit-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
+  -moz-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
+  -o-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
+  animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
+}
+h1 {color: white;
+    float: left;
+    font-size: xx-large;
+}
+h2 {color: white;
+    float: right;
+    font-size: xx-large;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 900px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 900px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 900px; }
+}
+
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 400px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 400px; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 400px; }
+}
+
+
+
+@keyframes moveX {
+  from { left: 0; } to { left: 900px; }
+}
+
+@keyframes moveY {
+  from { top: 0; } to { top: 400px; }
+}
