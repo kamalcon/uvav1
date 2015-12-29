@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-color: black;
     font-family: "futura", "Questrial", sans-serif;
+    background-position: top center;
 }
 
 div.header {
