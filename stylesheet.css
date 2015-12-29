@@ -1,26 +1,24 @@
-body { background-image: url(vogue.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-        font-family: "futura", "Questrial", sans-serif;
+body { 
+    background-image: url(voguemob.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top, center;
+    font-family: "futura", "Questrial", sans-serif;
 }
+
 div.header {
     margin: 0 auto;
     width: 80%;
     position: relative;
     overflow: hidden;
 }
-.box {
-  margin: 0 auto;
-  width: 80%;
-  height: 600px;
-  position: relative;
-  overflow: hidden;
+
 }
-.box svg {
+svg {
   display: block;
   max-width: 200px;
   min-width: 50px;
-  width: 30%;
+  width: 15%;
   position: absolute;
   -webkit-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
   -moz-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
@@ -30,18 +28,20 @@ div.header {
 h1 {
     color: white;
     float: left;
-    font-size: xx-large;
+    font-size: medium;
+    margin: 2%, 0, 0, 0;
 }
 h2 {
     color: white;
     float: right;
-    font-size: xx-large;
+    font-size: medium;
+    margin: 2%, 0, 0, 0;
 }
 
 a {
     position: absolute;
     left: 50%;
-    bottom: 5%;
+    bottom: 10%;
     text-decoration: none;
     color: white;
     margin-left: -27.6px;
@@ -56,31 +56,53 @@ a:visited {
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: 80%; }
+  from { left: 0; } to { left: 88%; }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: 80%; }
+  from { left: 0; } to { left: 88%; }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: 80%; }
+  from { left: 0; } to { left: 88%; }
 }
 
 @-webkit-keyframes moveY {
-  from { top: 0; } to { top: 400px; }
+  from { top: 10%; } to { top: 400px; }
 }
 @-moz-keyframes moveY {
-  from { top: 0; } to { top: 400px; }
+  from { top: 10%; } to { top: 400px; }
 }
 @-o-keyframes moveY {
-  from { top: 0; } to { top: 400px; }
+  from { top: 10%; } to { top: 400px; }
 }
 
 
 
 @keyframes moveX {
-  from { left: 0; } to { left: 80%; }
+  from { left: 0; } to { left: 88%; }
 }
 
 @keyframes moveY {
-  from { top: 0; } to { top: 400px; }
+  from { top: 10%; } to { top: 400px; }
+}
+
+@media (min-width: 801px) {
+    body {
+        background-image: url(voguedesk.jpg);
+        background-size:cover;
+        background-position: top, left;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+    body {
+        background-image: url(vogueretina.jpg); 
+    }
 }
