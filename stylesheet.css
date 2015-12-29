@@ -5,50 +5,64 @@ body { background-image: url(vogue.jpg);
 }
 div.header {
     margin: 0 auto;
-    width: 1000px;
-    height: 100px;
+    width: 80%;
     position: relative;
     overflow: hidden;
 }
 .box {
   margin: 0 auto;
-  width: 1200px;
+  width: 80%;
   height: 600px;
   position: relative;
   overflow: hidden;
 }
 .box svg {
   display: block;
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  min-width: 50px;
+  width: 30%;
   position: absolute;
   -webkit-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
   -moz-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
   -o-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
   animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
 }
-h1 {color: white;
+h1 {
+    color: white;
     float: left;
     font-size: xx-large;
 }
-h2 {color: white;
+h2 {
+    color: white;
     float: right;
     font-size: xx-large;
 }
-p {
+
+a {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    text-decoration: none;
     color: white;
+    margin-left: -27.6px;
+    font-size: x-large;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgreen;
     text-align: center;
     font-size: x-large;
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: 900px; }
+  from { left: 0; } to { left: 80%; }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: 900px; }
+  from { left: 0; } to { left: 80%; }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: 900px; }
+  from { left: 0; } to { left: 80%; }
 }
 
 @-webkit-keyframes moveY {
@@ -64,7 +78,7 @@ p {
 
 
 @keyframes moveX {
-  from { left: 0; } to { left: 900px; }
+  from { left: 0; } to { left: 80%; }
 }
 
 @keyframes moveY {
