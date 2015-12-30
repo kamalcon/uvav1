@@ -37,13 +37,13 @@ svg {
 h1 {
     color: white;
     float: left;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 2%;
 }
 h2 {
     color: white;
     float: right;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 2%;
 }
 
@@ -75,13 +75,13 @@ a:visited {
 }
 
 @-webkit-keyframes moveY {
-  from { top: 10%; } to { top: 60%px; }
+  from { top: 15%; } to { top: 65%px; }
 }
 @-moz-keyframes moveY {
-  from { top: 10%; } to { top: 60%px; }
+  from { top: 15%; } to { top: 65%px; }
 }
 @-o-keyframes moveY {
-  from { top: 10%; } to { top: 60%px; }
+  from { top: 15%; } to { top: 65%px; }
 }
 
 
@@ -91,7 +91,7 @@ a:visited {
 }
 
 @keyframes moveY {
-  from { top: 10%; } to { top: 60%; }
+  from { top: 15%; } to { top: 65%; }
 }
 
 @media (min-device-width: 801px) {
