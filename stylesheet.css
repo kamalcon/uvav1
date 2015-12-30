@@ -34,17 +34,19 @@ svg {
   -o-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
   animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
 }
+
 h1 {
+    text-shadow: 0 0 1px #d0b090;
     color: white;
-    float: left;
     font-size: 1.5em;
     margin: 2%;
 }
-h2 {
-    color: white;
+h1.left{
+    float: left;
+}
+
+h1.right {
     float: right;
-    font-size: 1.5em;
-    margin: 2%;
 }
 
 a {
@@ -103,9 +105,7 @@ a:visited {
     h1 {
         font-size: xx-large;
     }
-    h2 {
-        font-size: xx-large;
-    }
+    
 }
 
 @media (min-device-width: 801px) and (-webkit-min-device-pixel-ratio: 2),
