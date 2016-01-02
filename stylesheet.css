@@ -115,3 +115,13 @@ a:visited {
         background-image: url(vogueretina.jpg); 
     }
 }
+
+
+#mc_embed_signup {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    text-decoration: none;
+    color: white;
+    margin-left: -100px;
+    font-size: large;
