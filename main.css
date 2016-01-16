@@ -54,7 +54,8 @@ a {
    width: 100%;
    height: 99%; 
    padding-top: 45%;
-     
+   color: white;
+   font-size: 120%;
 }
 
 a:visited {
@@ -74,8 +75,5 @@ a:hover {
 @media (min-device-width: 801px) {
     a {
         opacity: 0;
-        text-decoration: none;
-        color: white;
-        font-size: 120%;
     }
 }
