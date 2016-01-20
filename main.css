@@ -227,6 +227,7 @@ div.pages {
 
 h1 {
     line-height: normal;
+    font-size: 1em;
 }
 
 @media (min-device-width: 801px) {
@@ -235,4 +236,8 @@ h1 {
     }
     .pages {
         height: 900px;
+    }
+    h1 {
+        font-size: 2em;
+    }
 }
