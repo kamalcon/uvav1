@@ -198,36 +198,32 @@ a.imagelink {
 
 div.pages {
     height: 600px;
-    padding-left: 20%;
-    padding-top: 15%;
-    padding-right: 17%;
-}
-
-#pageone { 
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
 }
 
 #pagetwo {
-    padding-top: 45%;
+    padding-top: inherit;
 }
 
 #pagethree {
-    padding-right: 50%;
-    padding-top: 30%
+    padding-right: inherit;
+    padding-top: inherit;
 }
 
 #pagefour {
-    padding-top: 30%;
+    padding-top: inherit;
 }
 
 #pagefive {
-    padding-right: 40%;
-    padding-top: 45%;
+    padding-right: inherit;
+    padding-top: inherit;
 }
 
 h1 {
     line-height: normal;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 @media (min-device-width: 801px) {
@@ -236,6 +232,9 @@ h1 {
     }
     div.pages {
         height: 900px;
+        padding-left: 20%;
+        padding-top: 15%;
+        padding-right: 15%;
     }
     div.bigpic {
         height: 900px;
@@ -244,4 +243,26 @@ h1 {
     h1 {
         font-size: 2em;
     }
+    #pageone { 
+        padding-top: 5%;
+    }
+
+    #pagetwo {
+        padding-top: 45%;
+    }
+
+    #pagethree {
+        padding-right: 50%;
+        padding-top: 30%
+    }
+
+    #pagefour {
+        padding-top: 30%;
+    }
+
+    #pagefive {
+        padding-right: 40%;
+        padding-top: 45%;
+    }
+
 }
