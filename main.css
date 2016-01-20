@@ -121,39 +121,39 @@ div.bigpic {
 }
 
 #bigpic1 {
-    background-image: url("/images/fashion.jpg");
+    background-image: url("fashion.jpg");
 }
 
 #bigpic2 {
-    background-image: url("/images/ritual.jpg");
+    background-image: url("ritual.jpg");
 }
 
 #bigpic3 {
-    background-image: url("/images/hmck.jpg");
+    background-image: url("hmck.jpg");
 }
 
 #bigpic4 {
-    background-image: url("/images/coral.jpg");
+    background-image: url("coral.jpg");
 }
 
 #bigpic5 {
-    background-image: url("/images/sunrise.jpg");
+    background-image: url("sunrise.jpg");
 }
 
 #bigpic6 {
-    background-image: url("/images/forest.jpg");
+    background-image: url("forest.jpg");
 }
 
 #bigpic7 {
-    background-image: url("/images/tidepools.jpg");
+    background-image: url("tidepools.jpg");
 }
 
 #bigpic8 {
-    background-image: url("/images/vogueretina.jpg");
+    background-image: url("vogueretina.jpg");
 }
 
 #bigpic9 {
-    background-image: url("/images/shire.jpg");
+    background-image: url("shire.jpg");
 }
 
 a.imagelink {
