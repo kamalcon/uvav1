@@ -116,8 +116,8 @@ div.bigpic {
     background-position: center center;
     background-attachment:fixed;
     background-repeat: no-repeat;
-    height:500px;
-    background-size: cover;
+    height:600px;
+    background-size: 100%;
 }
 
 #bigpic1 {
@@ -197,7 +197,7 @@ a.imagelink {
 }
 
 div.pages {
-    height: 500px;
+    height: 600px;
     padding-left: 20%;
     padding-top: 15%;
     padding-right: 17%;
@@ -239,6 +239,7 @@ h1 {
     }
     div.bigpic {
         height: 900px;
+        background-size: cover;
     }
     h1 {
         font-size: 2em;
