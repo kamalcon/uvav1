@@ -1,0 +1,236 @@
+html {
+    width: 100% 
+}
+
+body { 
+    background-color: black;
+    font-family: "futura", "Questrial", sans-serif;
+    width: 100%;
+    color: white;
+}
+
+.container img {
+    width: 100%;
+}
+
+.row div {
+    padding-top: 7.5px;
+    padding-left: 0px;
+}
+
+div #bottom {
+    padding-bottom: 15px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+p {
+   position: absolute; 
+   top: 30%; 
+   left: 5%;
+   width: 90%;
+   text-align: center;
+   font-size: 1.8em;
+   
+}
+
+.modalp {
+    position: relative;
+    width: 100%;
+    top: 0px; 
+    left: 0px;
+    text-align: justify;
+}
+
+.modalptwo {
+    position: relative;
+    width: 90%;
+    top: 0px; 
+    left: 0px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#mc_embed_signup {
+    width: 90%;
+}
+
+a {
+   text-decoration: none;
+   position: absolute;
+   left: 0px;
+   top: 6px;
+   text-align: center;
+   width: 100%;
+   height: 99%; 
+   padding-top: 45%;
+   color: white;
+   font-size: 120%;
+   opacity: 1;
+   background-color: rgba(0,0,0,.3);
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgreen;
+}
+    
+a:hover {
+    background-color: rgba(0,0,0,.3);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    opacity: 1;
+}
+
+.reglink {
+   text-decoration: underline;
+   position: initial;
+   left: initial;
+   top: initial;
+   text-align: initial;
+   width: initial;
+   height: initial; 
+   padding-top: initial;
+   color: white;
+   font-size: initial;
+   opacity: initial;
+   background-color: initial;
+}
+
+.reglink:hover {
+    background-color: initial;
+    text-decoration: initial;
+    color: lightgreen;
+    text-align: initial;
+    font-size: initial;
+    opacity: initial;
+}
+
+div.bigpic {
+    width:100%;
+    background-position: center center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height:900px;
+    background-size: cover;
+}
+
+#bigpic1 {
+    background-image: url("/images/fashion.jpg");
+}
+
+#bigpic2 {
+    background-image: url("/images/ritual.jpg");
+}
+
+#bigpic3 {
+    background-image: url("/images/hmck.jpg");
+}
+
+#bigpic4 {
+    background-image: url("/images/coral.jpg");
+}
+
+#bigpic5 {
+    background-image: url("/images/sunrise.jpg");
+}
+
+#bigpic6 {
+    background-image: url("/images/forest.jpg");
+}
+
+#bigpic7 {
+    background-image: url("/images/tidepools.jpg");
+}
+
+#bigpic8 {
+    background-image: url("/images/vogueretina.jpg");
+}
+
+#bigpic9 {
+    background-image: url("/images/shire.jpg");
+}
+
+a.imagelink {
+  opacity: 1;
+  background-color: transparent;
+  position: fixed;
+  padding: 0%;
+  max-width: 150px;
+  width: 10%;
+  left: 2%;
+  top: 2%;
+  height: 0%;
+}
+
+.logo {
+    height: 10em;
+    width: 10%;
+    position: fixed;
+    left: 2%;
+    top: 5%;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.logo:hover {
+    animation-play-state: paused;
+}
+
+@keyframes colorchange {
+    0% {
+        fill: black;
+    }
+    50% {
+        fill: white;
+    }
+    100% {
+        fill: black;
+    }
+}
+
+div.pages {
+    height: 900px;
+    padding-left: 20%;
+    padding-top: 15%;
+    padding-right: 17%;
+}
+
+#pageone { 
+    padding-top: 5%;
+}
+
+#pagetwo {
+    padding-top: 45%;
+}
+
+#pagethree {
+    padding-right: 50%;
+    padding-top: 30%
+}
+
+#pagefour {
+    padding-top: 30%;
+}
+
+#pagefive {
+    padding-right: 40%;
+    padding-top: 45%;
+}
+
+h1 {
+    line-height: normal;
+}
+
+@media (min-device-width: 801px) {
+    a {
+        opacity: 0;
+    }
+}

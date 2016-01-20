@@ -9,17 +9,17 @@
     <meta name="description" content="A clothing system designed by interplanar beings seeking light on Planet Earth.">
 
     <!-- Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">    
+    <link href="/bootstrap/bootstrap.css" rel="stylesheet">    
       
     <!-- Optional theme -->
-    <link rel="stylesheet" href="bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap-theme.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="/bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="ie-emulation-modes-warning.js"></script>
+    <script src="/bootstrap/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/css/main.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +41,7 @@
           <meta property="og:title" content="UV/AV" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="http://uvav.co" />
-          <meta property="og:image" content="voguemob.jpg" />
+          <meta property="og:image" content="/images/voguemob.jpg" />
           <meta property="og:site_name" content="uvav.co" />
           <meta property="og:description" content="A clothing system designed by interplanar beings seeking light on Planet Earth." />
  
@@ -52,16 +52,146 @@
     
     <div class="container">
       <div class="row">
-        <div class="col-md-4"><div class="image"><img src="1.gif"/></div></div>
-        <div class="col-md-4"><div class="image"><img src="3.jpg"/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
-        <div class="col-md-4"><div class="image"><img src="2.jpg"/><a href="#storymodal">the story</a></div></div>
+        <div class="col-md-4">
+            <div class="image">
+                <img src="/images/1.gif"/>
+            </div>
+        </div>
+          
+        <div class="col-md-4">
+            <div class="image">
+                <img src="/images/3.jpg"/>
+                    <p class="desc">￼UV/AV is a clothing system designed by interdimensional beings seeking light on Planet Earth.
+                    </p>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="image">
+                <img src="/images/2.jpg"/>
+                <a href="lookbook.html">the lookbook</a>
+            </div>
+        </div>
       </div>
+        
       <div class="row" id="bottom">
-        <div class="col-md-4"><div class="image"><img src="5.jpg"/><a href="#lookbookmodal">the lookbook</a></div></div>
-        <div class="col-md-4"><div class="image"><img src="6.jpg"/><a href="#videomodal">the video</a></div></div>
-        <div class="col-md-4"><div class="image"><img src="7.jpg"/><a href="#contactmodal">contact</a></div></div>
+        <div class="col-md-4">
+            <div class="image">
+                <img src="/images/5.jpg"/>
+                    <a href="#storymodal" data-toggle="modal" data-target="#videomodal">the video</a>
+            </div>
+        </div>
+        
+          <div class="col-md-4">
+              <div class="image">
+                  <img src="/images/6.jpg"/>
+                        <a href="#storymodal" data-toggle="modal" data-target="#storymodal">the story</a>
+              </div>
+          </div>
+          
+        <div class="col-md-4">
+            <div class="image">
+                <img src="/images/7.jpg"/>
+                    <a href="#contactmodal" data-toggle="modal" data-target="#contactmodal">about</a>
+            </div>
+          </div>
       </div>
-     
+        
+        
+    <!-- Modal -->
+    <div id="storymodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                <h1>Origin Story</h1>
+                <br><br>
+                <p class="modalp">UV/AV comes from a faraway utopian dimension: a series of rooms containing a small                     population of photosynthetic beings. 
+                <br><br>
+                This dimension has two seasons.
+                <br><br>
+                During Basking Season, carpet grows thick from wall to wall, and lights emanate the warm glow of UV rays.                 Aromatherapy diffusers pump a cool, scented breeze into the rooms. The beings sprawl out on the carpet,                   wrapped in sheer netting. For 90 days they absorb light, compose song poems, hold lectures, and practice                 idea transmission. 
+                <br><br>
+                During Rave Season, the carpet dissolves into parquet floors, and the lights blink to the sound of loud,                 energetic disco. The beings use all their stored energy on a 3-month ecstatic, nude dancing ritual.
+                <br><br>
+                But over the past few seasons these photoautotrophs have noticed a change. The normally bright and warm                   UV light has steadily dimmed. They are not able to absorb enough energy during the Bask to keep up their                 dancing for the whole Rave. The once spectacular and exciting light shows of Rave Season have become                     muted and cold, with a latency that doesn't vibe with the rhythm and soul of the disco.
+                <br><br>
+                A small unit has volunteered to venture out of their dimension to a place they’ve learned of from the                     only video broadcasts they’ve ever received: the BBC documentary series Planet Earth. This Planet Earth                   seems to have a strong, harsh light that nurtures billions of diverse beings. The volunteers are tasked                   with harnessing this light and bringing it back to their dimension before it is too late.
+                <br><br>
+                Not being accustomed to wearing much clothing at all, the beings created three essential pieces to                       withstand the harsh climates of this new dimension while keeping a low profile. An all-weather cloak, a                   jumpsuit, and a hammock for sleeping make up the first collection from UV/AV, a clothing system designed                 for any journey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal -->
+    <div id="videomodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg"> 
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://player.vimeo.com/video/150062125" width="100%" height="600px" frameborder="0"    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+  <!-- Modal -->
+    <div id="contactmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg"> 
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+        <div class="col-md-6">
+            <h1>About UV/AV</h1>    
+            <br><br>
+            <p class="modalptwo">UV/AV is an art project and lifestyle brand created by Olivia Gibian and<br><a class="reglink" target="_blank" href="http://kaco.info">Katie Connor</a><br><br>with photos by Miakoda Gale<br><br>and video by <a class="reglink" target="_blank" href="http://charlottehornsby.com/">Charlotte Hornsby</a><br><br>The clothing featured on this website is not currently available for sale, but if you are interested in finding out when it will be, please sign up for our newsletter below.</p>
+                      <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+                        <div id="mc_embed_signup">
+                            <form action="//uvav.us12.list-manage.com/subscribe/post?u=f7469079fa87b4ff04019eef2&amp;id=cc79a22707" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+	                               <label for="mce-EMAIL">email</label>
+	                                   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+	                            <div id="mce-responses" class="clear">
+		                              <div class="response" id="mce-error-response" style="display:none"></div>
+		                                  <div class="response" id="mce-success-response" style="display:none"></div>
+	                            </div>    
+                                
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_f7469079fa87b4ff04019eef2_cc79a22707" tabindex="-1" value="">
+                                </div>
+                                <div class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+<!--End mc_embed_signup-->
+                
+        </div>  
+          
+        <div class="col-md-6">
+            <h1>Acknowledgements</h1>
+            <br><br>
+            <p class="modalptwo">Special thanks to Eileen Butler and Mark Watson for installation help; Alia Connor, Igor Bernstein and <a class="reglink" target="_blank" href="http://jamesonzimmer.com/">Jameson Zimmer</a> for website help; <a class="reglink" target="_blank" href="http://www.stephenchristopherwilliams.com/">Stephen Williams</a> for photo editing help; <a class="reglink" target="_blank" href="http://www.jesseruuttila.com/">Jesse Ruuttila</a> for the incredible made up language/voiceover; Anna and Silas from <a class="reglink" target="_blank" href="http://treasuretown.nyc/">Treasure Town</a> for hosting our exhibition; <a class="reglink" target="_blank" href="http://dreyerprojects.info/">Max Dreyer</a> and James Gibian for music; and the lovely and enchanting land of <a target="_blank" class="reglink" href="http://eng.taiwan.net.tw/">Taiwan</a> and all the people who were so gracious to us there.</p>
+          </div>
+      </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div> <!-- /container -->
  
 
@@ -69,9 +199,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/bootstrap/jquery.min.js"><\/script>')</script>
+    <script src="/bootstrap/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="/bootstrap/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
