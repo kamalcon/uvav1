@@ -169,11 +169,10 @@ a.imagelink {
 }
 
 .logo {
-    height: 10em;
-    width: 10%;
+    height: 10%;
+    width: auto;
     position: fixed;
     left: 2%;
-    top: 5%;
     animation-name: colorchange;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
@@ -263,5 +262,7 @@ h1 {
         padding-right: 40%;
         padding-top: 45%;
     }
-
+    .logo {
+    height: 20%;
+    }
 }
