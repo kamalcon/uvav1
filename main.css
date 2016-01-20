@@ -227,14 +227,14 @@ div.pages {
 
 h1 {
     line-height: normal;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 @media (min-device-width: 801px) {
     a {
         opacity: 0;
     }
-    .pages {
+    div.pages {
         height: 900px;
     }
     h1 {
