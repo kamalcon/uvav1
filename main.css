@@ -204,21 +204,21 @@ div.pages {
 }
 
 #pagetwo {
-    padding-top: inherit;
+    padding-top: 10%;
 }
 
 #pagethree {
-    padding-right: inherit;
-    padding-top: inherit;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 
 #pagefour {
-    padding-top: inherit;
+    padding-top: 10%;
 }
 
 #pagefive {
-    padding-right: inherit;
-    padding-top: inherit;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 
 h1 {
