@@ -170,7 +170,7 @@ a.imagelink {
 }
 
 .logo {
-    height: 10%;
+    height: 15%;
     width: auto;
     position: fixed;
     left: 2%;
@@ -265,7 +265,49 @@ h1 {
         padding-top: 45%;
     }
     .logo {
-    height: 20%;
     top: 2%;
     }
 }
+
+@media all and (orientation:portrait) {
+    #bigpic1 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    div.pages {
+        display: none;
+    }
+    #bigpic2 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic3 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic4 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic5 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic6 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic7 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic8 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+    #bigpic9 {
+        background-image: url("portrait.jpg");
+        background-size: contain;
+    }
+}
+    
