@@ -222,6 +222,10 @@ div.pages {
     padding-top: 10%;
 }
 
+#pageone h1 {
+    text-shadow: 1px 1px #000000;
+}
+
 h1 {
     line-height: normal;
     font-size: 1.2em;
