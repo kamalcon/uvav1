@@ -232,6 +232,10 @@ h1 {
     font-size: 1.2em;
 }
 
+.modal-header h1 {
+    display: inline;
+}
+
 @media (min-device-width: 801px) {
     a {
         opacity: 0;
