@@ -22,18 +22,6 @@ div.header {
     overflow: hidden;
 }
 
-}
-svg {
-  display: block;
-  max-width: 200px;
-  min-width: 50px;
-  width: 20%;
-  position: absolute;
-  -webkit-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
-  -moz-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
-  -o-animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
-  animation: moveX 6.05s linear 0s infinite alternate, moveY 5.5s linear 0s infinite alternate;
-}
 
 h1 {
     text-shadow: 0 0 1px #999999;
@@ -94,6 +82,21 @@ a:visited {
 
 @keyframes moveY {
   from { top: 15%; } to { top: 65%; }
+}
+
+@keyframes changecolor {
+    
+    0% {
+        fill: black;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        fill: white;
+    }
 }
 
 @media (min-device-width: 801px) {

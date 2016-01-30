@@ -123,6 +123,7 @@ div.bigpic {
 
 #bigpic1 {
     background-image: url("fashion.jpg");
+    color: black;
 }
 
 #bigpic2 {
@@ -176,9 +177,10 @@ a.imagelink {
     left: 2%;
     bottom: 2%;
     animation-name: colorchange;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .logo:hover {
@@ -189,11 +191,13 @@ a.imagelink {
     0% {
         fill: black;
     }
+    
     50% {
-        fill: white;
+        opacity: 0;
     }
+
     100% {
-        fill: black;
+        fill: white;
     }
 }
 
@@ -220,10 +224,6 @@ div.pages {
 #pagefive {
     padding-right: 10%;
     padding-top: 10%;
-}
-
-#pageone h1 {
-    text-shadow: 1px 1px #000000;
 }
 
 h1 {
